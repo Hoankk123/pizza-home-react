@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import TypesExample from './slot3/DomoReact-bootstrap';
 
 function MyButton() {
   return (
@@ -8,10 +9,9 @@ function MyButton() {
 }
 function App() {
   return (
-    <div className="App">
-      <h1>welcome to my app</h1>
-      <p> this ia a simple React app</p>
-      <MyButton />
+    <div>
+
+      <TypesExample />
     </div>
   );
 }

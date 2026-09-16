@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ExES6 from './slot1/ExES6';
+import DemoES6 from './slot1_chuabai/DemoES6';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
     <ExES6 />
+    <DemoES6 />
   </React.StrictMode>
 );
 

@@ -51,9 +51,9 @@ function ExES6(){
             <div>
                 <h3>6. Array Methods</h3>
                 <ul>
-                    <li><strong>[filter]</strong> Passing scores (≥ 8): {passingScores.join(', ')}</li>
-                    <li><strong>[map]</strong> Bonus scores: {bonusScores.join(', ')}</li>
-                    <li><strong>[reduce]</strong> Average score: {averageScore.toFixed(2)}</li>
+                    <li><strong></strong> Passing scores (≥ 8): {passingScores.join(', ')}</li>
+                    <li><strong></strong> Bonus scores: {bonusScores.join(', ')}</li>
+                    <li><strong></strong> Average score: {averageScore.toFixed(2)}</li>
                 </ul>
             </div>
 
