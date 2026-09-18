@@ -6,13 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import ExES6 from './slot1/ExES6';
 import DemoES6 from './slot1_chuabai/DemoES6';
 import "bootstrap/dist/css/bootstrap.min.css";
+import AppTest from './AppTest';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <ExES6 />
-    <DemoES6 />
+    <AppTest/>
+    {/* <App /> */}
+    {/* <ExES6 />
+    <DemoES6 /> */}
   </React.StrictMode>
 );
 
