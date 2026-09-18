@@ -3,7 +3,7 @@ import { Button, Card } from 'react-bootstrap'
 
 function Ex10({pizza}) {
   return (
-      <Card className="bg-dark text-white mb-4" style={{ border: '1px solid #444'}}>
+      <Card className="bg-white text-black mb-4" style={{ border: '1px solid #444'}}>
       <Card.Img variant="top" src={pizza.image}
       style={{height: '200px', objectFit: 'cover'}} 
       />
@@ -12,7 +12,7 @@ function Ex10({pizza}) {
         <Card.Text>
           {pizza.price}
         </Card.Text>
-        <Button variant="primary">Buy</Button>
+        <Button className="w-100" variant="dark">Buy</Button>
       </Card.Body>
     </Card>
   )

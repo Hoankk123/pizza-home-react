@@ -71,7 +71,7 @@ function AppTest() {
                 className="me-2"
                 aria-label="Search"
               />
-              <Button variant="outline-success">
+              <Button variant="danger" >
                 <FaSearch />
               </Button>
             </Form>
